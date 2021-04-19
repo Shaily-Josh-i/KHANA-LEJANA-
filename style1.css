@@ -1,0 +1,111 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 730px;
+    padding-bottom: 8rem;
+    background-color:#e93e13;
+}
+
+.payment {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin-top: 10rem;
+    background-color: white;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.2);
+}
+
+.payment_product {
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+    width: 40%;
+    height: 100%;
+    background-image:linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.95) 85%), url('./img/Vegan\ Chocolate\ Cake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e93e13;
+}
+
+.payment_bill {
+    width: 80%;
+    height: 100%;
+    padding: 40px;
+}
+
+.price {
+    background-color: #e93e13;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+h3 {
+    color: #e93e13;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    color: rgb(77, 74, 74);
+}
+
+li:nth-last-child(1) {
+    color: #e93e13;
+}
+
+hr {
+    border-color: #ebeaea;
+    border-style: dashed;
+}
+
+.payment_form input, select {
+    border: none;
+    background-color: #e9ecec;
+    padding: 15px 10px;
+    width: 32%;
+    border-radius: 2px;
+}
+
+.payment_form .form-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.payment_form button {
+    width: 100%;
+    border: none;
+    background-color: #e93e13;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+}

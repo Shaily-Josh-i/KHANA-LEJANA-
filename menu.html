@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Khana Lejana</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="./index.html" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="./index.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="./menu.html" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="./restrauntslist.html" class="nav__link">Restaurants</a></li>
+                    <li class="nav__item"><a href="./index1.html" class="nav__link">Checkout</a></li>
+                    <li class="nav__item"><a href="./login.html" class="nav__link">Login</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="align-items-center bg-img bg-img-fixed" id="food-menu-section"
+    style="background-image: url('./img/rest1.jpg');">
+    <div class="container">
+        <div class="food-menu">
+            <h1>
+                What will <span class="primary-color">you</span> eat today?
+            </h1>
+            <p>
+                Find Popular Food Near You
+            </p>
+            <div class="food-category">
+                
+                   <button class="active" data-food-type="all">
+                        Popular
+                    </button>
+               
+               
+                    <button data-food-type="salad">
+                        All Food
+                    </button>
+                
+                
+                    <button data-food-type="lorem">
+                        Snacks
+                    </button>
+                
+                
+                    <button data-food-type="ipsum">
+                        Beverages
+                    </button>
+                
+                
+                    <button data-food-type="dolor">
+                        Meal
+                    </button>
+               
+            </div>
+
+            <div class="food-item-wrap all">
+                <div class="food-item salad-type">
+                    <div class="item-wrap ">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('./img/sandwich.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Sandwich- The Indian Spoon
+                                </h3>
+                                <span>
+                                    Rs.70
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item lorem-type">
+                    <div class="item-wrap ">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('./img/sandwich cookie.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Sandwich Cookie- Chai Sutta Baar
+                                </h3>
+                                <span>
+                                    Rs.90
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item ipsum-type">
+                    <div class="item-wrap ">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('./img/paneer.jpg');">
+                            </div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Paneer- Guru Kripa
+                                </h3>
+                                <span>
+                                    Rs.180
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item lorem-type">
+                    <div class="item-wrap">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('./img/burger.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Burger- The Indian Spoon
+                                </h3>
+                                <span>
+                                    Rs.75
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item dolor-type">
+                    <div class="item-wrap ">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('./img/cold-beverages.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Cold Beverages- Sagar Gaire
+                                </h3>
+                                <span>
+                                    Rs.50
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item salad-type">
+                    <div class="item-wrap ">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('./img/pizza.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Pizza- The Indian Spoon
+                                </h3>
+                                <span>
+                                    Rs.100
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item lorem-type">
+                    <div class="item-wrap">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('./img/south indian.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    South Indian- Chai Thikana
+                                </h3>
+                                <span>
+                                   Rs.120
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item dolor-type">
+                    <div class="item-wrap">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('./img/lunch-thali.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Lunch Thali- Guru Kripa
+                                </h3>
+                                <span>
+                                    Rs.230
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main> 
+
+<footer class="footer section bd-container">
+    <div class="footer__container bd-grid">
+        <div class="footer__content">
+            <a href="#" class="footer__logo">Khana Lejana</a>
+            <span class="footer__description">Food Delivery Company</span>
+            <div>
+                <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/khana_lejana?r=nametag" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Our Priorities</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Timely Delivery</a></li>
+                <li><a href="#" class="footer__link">Easy Contact</a></li>
+                <li><a href="#" class="footer__link">Customer Satisfaction</a></li>
+                <li><a href="#" class="footer__link">Proper Food Assurance</a></li>
+                <li><a href="#" class="footer__link">Proper Sanitization</a></li>
+                <li><a href="#" class="footer__link">Moat Importantly- Your Ease</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Information</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Contact us</a></li>
+                <li><a href="#" class="footer__link">Privacy policy</a></li>
+                <li><a href="#" class="footer__link">Terms of services</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Contact</h3>
+            <ul>
+                <li><a href="#" class="footer__link">+1234567999</a></li>
+                <li><a href="#" class="footer__link">khanalejana@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <p class="footer__copy">&#169; 2021 Khana Lejana. All right reserved</p>
+</footer>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
